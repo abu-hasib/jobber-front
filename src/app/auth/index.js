@@ -10,6 +10,17 @@ export const logUserIn = async (email, password) => {
     .catch((error) => error.response);
 };
 
+export const signUserUp = async (email, password, confirmPassword) => {
+  //   console.log(password);
+  return await Axios.post("http://localhost:8000/users/signup", {
+    email: email,
+    password: password,
+    confirmPassword: confirmPassword,
+  })
+    .then((response) => response)
+    .catch((error) => error.response);
+};
+
 export const getAllUsers = async () => {
   await Axios.get("http://localhost:8000/users").then((response) =>
     console.log(response)
