@@ -1,7 +1,12 @@
 import React from "react";
+import Navigation from "../Navigation";
 
 const Dashboard = () => {
-  return <div>Dashboard works</div>;
+  return (
+    <div>
+      <Navigation />
+    </div>
+  );
 };
 
 export default Dashboard;

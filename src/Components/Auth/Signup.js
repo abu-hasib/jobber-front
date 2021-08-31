@@ -62,7 +62,7 @@ const Signup = (props) => {
                   placeholder="confirm password"
                   className="-mx-6 px-8 w-full border rounded py-1 text-gray-700"
                   value={confirmPassword}
-                  onChange={(e) => setPassword(e.target.value)}
+                  onChange={(e) => setConfirmPassword(e.target.value)}
                 />
               </div>
             </div>

@@ -30,6 +30,7 @@ const Login = (props) => {
         <img
           className="border-2 w-20 h-20 rounded-full"
           src="/assets/docs/master/image-01.jpg"
+          alt="alt"
         />
       </div>
       <div className="px-12 py-10">
